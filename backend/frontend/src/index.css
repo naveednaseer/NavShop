@@ -1,0 +1,63 @@
+main{
+    min-height: 85vh;
+}
+
+h1{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h2{
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+
+h3{
+    padding: 1rem 0;
+}
+
+.rating span{
+    margin-right: 0.1rem;
+}
+
+
+.p-1.btn.btn-outline-light:hover{
+    color: #78c2ad;
+}
+
+
+.p-1.btn.btn-outline-light{
+    border-radius: 50px;
+}
+
+
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #78c2ad;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+ .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2378c2ad' viewBox='0.5 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    /* background-color: #78c2ad  !important;
+    border-radius: 100%;
+    border: 0.1px solid #ffffff; */
+}
+
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2378c2ad' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    /* background-color: #78c2ad  !important;
+    border-radius: 100%;
+    border: 0.1px solid #ffffff; */
+}
+
+.carousel-control-next, .carousel-control-prev { 
+    opacity: 1 !important;
+}
+
+
+
