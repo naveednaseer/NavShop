@@ -23,8 +23,9 @@ const Header = () => {
       <header>
         <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
           <Container>
+          <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' />
             <LinkContainer to='/'>
-              <Navbar.Brand>ProShop</Navbar.Brand>
+              <Navbar.Brand><div style={{fontFamily: 'Pacifico', fontSize: '25px'}}>Phroph</div></Navbar.Brand>
             </LinkContainer>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
